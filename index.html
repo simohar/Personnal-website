@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <meta name="description" content="Personal website of Mohamed Harrata, a Computer Science student at the University of Ottawa."/>
+    <title>Mohamed Harrata - Computer Science Student</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        header, nav, main, section, footer {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        header p {
+            margin: 5px 0;
+        }
+
+        nav {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        main {
+            background: #fff;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            padding: 30px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            margin-top: 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            font-size: 1.5em;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            margin-bottom: 10px;
+        }
+
+        ul, p {
+            margin: 0 0 10px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .experience-title {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .details {
+            color: #555;
+            font-size: 0.95em;
+        }
+
+        footer {
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+
+        a.btn {
+            display: inline-block;
+            border: 1px solid #333;
+            padding: 5px 10px;
+            border-radius: 3px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        a.btn:hover {
+            background: #333;
+            color: #fff;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header, nav, main, footer {
+                padding: 10px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            header p {
+                font-size: 0.95em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mohamed Harrata</h1>
+        <p>Honours BSc Computer Science (in progress) | University of Ottawa</p>
+        <p><a href="tel:+16133023341"> (613) 302-3341</a> | 
+           <a href="https://www.linkedin.com/in/mohamed-h-472749221/" target="_blank">LinkedIn</a> | 
+           <a href="https://github.com/simohar" target="_blank">GitHub</a>
+        </p>
+        <nav>
+            <a href="#education">Education</a>
+            <a href="#work-experience">Work Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#leadership">Leadership</a>
+            <a href="#skills">Skills</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>University of Ottawa – Ottawa, ON</strong><br/>
+            Honours BSc Computer Science (in progress)</p>
+        </section>
+
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <div>
+                <p class="experience-title">IT Technician Assistant – University of Ottawa (Sep 2024 – Present)</p>
+                <ul>
+                    <li>Assembled and configured 30+ computers, optimizing performance and ensuring compatibility, resulting in a 15% increase in system efficiency.</li>
+                    <li>Replaced faulty hardware daily, diagnosing and repairing issues promptly, reducing downtime for university staff by 20%.</li>
+                    <li>Installed software and resolved technical issues for 50+ faculty and doctoral candidates, maintaining efficient teaching and research environments.</li>
+                </ul>
+            </div>
+            <div>
+                <p class="experience-title">Intern – PCA (Payment Center for Africa), Casablanca, Morocco (Apr 2020 – May 2020)</p>
+                <ul>
+                    <li>Developed and led a coding training program (HTML, CSS, JavaScript, Python) for interns, boosting technical proficiency by 30%.</li>
+                    <li>Collaborated with cross-functional teams to implement new website features, increasing user engagement by 15%.</li>
+                    <li>Troubleshot coding challenges and optimized site functionality, improving overall performance by 30%.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div>
+                <p class="experience-title">AI-Powered Resume Screener</p>
+                <ul>
+                    <li><strong>Skills Used:</strong> Natural Language Processing (NLP), Classification</li>
+                    <li><strong>Why Employers Like It:</strong> Automates candidate shortlisting to streamline recruitment.</li>
+                    <li>Built a system that screens resumes and matches them to job descriptions using vectorization and NLP techniques.</li>
+                </ul>
+            </div>
+            <div>
+                <p class="experience-title">Tetris (Java)</p>
+                <ul>
+                    <li>Developed a classic Tetris game with piece rotation, collision detection, and scoring system.</li>
+                    <li>Optimized performance for smooth, responsive gameplay and user-friendly interface.</li>
+                </ul>
+            </div>
+            <div>
+                <p class="experience-title">BreakoutGame (JavaScript, HTML5)</p>
+                <ul>
+                    <li>Created a Breakout-style game with multiple levels, power-ups, and various brick types.</li>
+                    <li>Conducted user testing to refine game mechanics, ensuring an engaging experience.</li>
+                </ul>
+            </div>
+            <p>More projects and code samples are available on my <a href="YOUR_GITHUB_URL" target="_blank">GitHub</a>.</p>
+        </section>
+
+        <section id="leadership">
+            <h2>Leadership Experience</h2>
+            <div>
+                <p class="experience-title">Leader – CSC (Computer Club), Casablanca, Morocco (Oct 2021 – Sep 2023)</p>
+                <ul>
+                    <li>Organized team meetings and guided members in developing group projects.</li>
+                    <li>Facilitated problem-solving sessions, aligning team efforts toward common goals.</li>
+                </ul>
+            </div>
+            <div>
+                <p class="experience-title">Volunteer – Wydad Casablanca Association (Nov 2022 – Sep 2023)</p>
+                <ul>
+                    <li>Directed logistics for events, strengthening community engagement.</li>
+                    <li>Coordinated with Wydad Athletic Club’s football team to ensure smooth event execution.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Interests</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Python, SQL, HTML, CSS, JavaScript</li>
+                <li><strong>Tools:</strong> Tableau, Machine Learning Algorithms</li>
+                <li><strong>Technical:</strong> Computer Assembly, Hardware Troubleshooting, Software Installation</li>
+                <li><strong>Languages:</strong> Fluent in French, English, and Arabic</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 - Mohamed Harrata</p>
+    </footer>
+</body>
+</html>
